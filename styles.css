@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    letter-spacing: 0.05em;
+}
+
+.container {
+    text-align: left;
+    max-width: 600px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+h1, h3 {
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif; /* Replace 'Roboto' with your preferred heading font */
+    font-weight: 600; /* Adjust the weight for emphasis */
+    letter-spacing: 0.05em; /* Adjust letter spacing for headings */
+}
+
+p {
+    color: white;
+    font-family: 'Open Sans', sans-serif; /* Replace 'Open Sans' with your preferred paragraph font */
+    font-weight: 400; /* Normal weight for paragraphs */
+}
+
+/* Color for List Items (li) */
+li {
+    color: #dddddd; /* Light gray color for list items */
+    margin-bottom: 10px;
+}
+
+/* Color for Anchor Links (a) */
+a {
+    color: #6fa5d2; /* Muted blue color for anchor links */
+    text-decoration: none; /* Remove underlines from anchor links */
+}
+
+/* Hover state for Anchor Links */
+a:hover {
+    color: #3d6d8e; /* Darker blue color on hover */
+}
